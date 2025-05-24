@@ -100,3 +100,35 @@ body {
   margin: 20px 0;
 }
 
+/* Nose */
+
+.robot-nose {
+  outline: 1px solid red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  margin: 20px 40%;
+}
+
+.oval {
+  width: 178px;
+  height: 90px;
+  background: var(--peach-brown);
+  border-radius: 100px / 50px;
+  background-image: url("https://picsum.photos/200/100");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 50%;
+}
+
+
+
+
+
+
+
+
+
+
