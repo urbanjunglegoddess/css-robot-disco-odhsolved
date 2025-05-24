@@ -12,7 +12,7 @@ body {
 
 .robot-container {
   display: flex;
-  flex-flow: column nowrap;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   gap: 30px;
@@ -25,10 +25,9 @@ body {
 /* Face Shape */
 .robot-face-shape {
   display: flex;
-  justify-content: center;
+  flex-flow: column wrap;
+  justify-content: space-around;
   align-items: center;
-  width: 80vw;
-  height: 80vh;
   
 }
 
@@ -59,7 +58,6 @@ body {
   flex-flow: row nowrap;
   justify-content: center;
   align-items: flex-start;
-  align-self: flex-start;
   margin-top: 20px;
   gap: 50px;
   width: 60%;
@@ -107,8 +105,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  margin: 20px 40%;
+
 }
 
 .oval {
@@ -123,12 +120,22 @@ body {
   opacity: 50%;
 }
 
+/* Teeth */
+.robot-teeth {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-between;
+  width: 380px;
+  height: 140px;
+  background: var(--dark-blue);
+  padding: 10px;
+}
 
-
-
-
-
-
-
-
-
+.robot-tooth {
+  width: 46px;
+  height: 45px;
+  margin: 5px;
+  background: var(--cream);
+  border: 1px solid var(--peach-brown);
+}
