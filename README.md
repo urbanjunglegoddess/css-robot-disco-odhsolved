@@ -15,7 +15,7 @@ This assignment should prove that a student is able to:
 
 ## Standard requirements
 
-- [ ] Use the "Fancy Robot" exercise file from the "Position it right" approved assignment.
+- [x] Use the "Fancy Robot" exercise file from the "Position it right" approved assignment.
 - [ ] All the tasks of the "Specific requirements" section MUST be solved
 - [ ] The code of the index.html and styles.css should pass the W3C validation (Feel free to use either the "w3c web validator" VSCode extension or the "Online w3c Markup Validation Service")
 - [ ] The code MUST be formatted with Prettier.
