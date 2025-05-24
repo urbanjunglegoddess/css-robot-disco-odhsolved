@@ -122,6 +122,7 @@ body {
 
 /* Teeth */
 .robot-teeth {
+  outline: 1px solid red;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -138,4 +139,34 @@ body {
   margin: 5px;
   background: var(--cream);
   border: 1px solid var(--peach-brown);
+}
+
+/*Ears*/
+.ears {
+  outline: 1px solid red;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 90%;
+  align-self: center;
+  position: absolute;
+}
+
+.pacman {
+  width: 0;
+  height: 0;
+  border-right: 60px solid transparent;
+  border-top: 60px solid var(--peach-brown);
+  border-left: 60px solid var(--peach-brown);
+  border-bottom: 60px solid var(--peach-brown);
+  border-radius: 60px;
+}
+
+.robot-ear-left {
+  left: 16%;
+  transform: rotate(-180deg);
+}
+
+.robot-ear-right {
+  right: 16%;
 }
