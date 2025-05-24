@@ -22,3 +22,32 @@ body {
   outline: 1px solid red;
 }
 
+/* Face Shape */
+.robot-face-shape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+  height: 80vh;
+  
+}
+
+.hexagon {
+  align-self: center;
+  width: calc(100vh / 1);
+  height: calc(100vh / 1.5);
+  background: radial-gradient(farthest-corner at 40px 40px,
+  var(--light-blue) 0%,
+  var(--cream) 50%,
+  var(--dark-blue) 100%);
+  clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+  transition: transform 0.3s ease;
+  border-radius: 40%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  border: 10px dashed var(--dark-blue);
+  stroke: var(--light-blue);
+}
+
+.hexagon:hover {
+  transform: scale(1.05);
+}
