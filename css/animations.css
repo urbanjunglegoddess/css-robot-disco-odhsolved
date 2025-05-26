@@ -94,3 +94,17 @@
   animation: wobble 2s ease-in-out infinite,
   color-pulse 4s linear infinite;
 }
+
+/* Teeth */
+.robot-tooth {
+  animation: blink 1.5s ease infinite alternate;
+}
+
+.robot-tooth:nth-child(odd) {
+  animation-delay: 0.5s;
+}
+
+.robot-tooth:hover {
+  transform: scaleY(1.5);
+  background-color: #00ff00 !important;
+}
