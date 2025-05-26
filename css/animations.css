@@ -41,7 +41,17 @@
   }
 }
 
-/* Color change animation */
+/* Nose Color change animation */
+@keyframes color-pulse {
+  0%, 100% {
+    background-color: var(--peach-brown);
+  }
+  50% {
+    background-color: var(--light-blue);
+  }
+}
+
+/* Cone Color change animation */
 @keyframes cone-color-pulse {
   0%, 100% {
     border-color: var(--peach-brown) transparent transparent transparent;
@@ -79,3 +89,8 @@
   filter: brightness(1.2);
 }
 
+/* Nose */
+.robot-nose {
+  animation: wobble 2s ease-in-out infinite,
+  color-pulse 4s linear infinite;
+}
