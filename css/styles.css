@@ -47,9 +47,6 @@ body {
   stroke: var(--light-blue);
 }
 
-.hexagon:hover {
-  transform: scale(1.05);
-}
 
 /* Eyes */
 
