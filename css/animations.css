@@ -61,6 +61,17 @@
   }
 }
 
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  25% {
+    transform: translateY(-30px) rotate(-5deg);
+  }
+  75% {
+    transform: translateY(10px) rotate(3deg);
+  }
+}
 
 /*Face*/
 .hexagon:hover {
@@ -123,3 +134,29 @@
   animation-direction: reverse;
 }
 
+/* Hair */
+.cone {
+  animation: bounce 1.5s ease-in-out infinite,
+  cone-color-pulse 3s infinite;
+  transition: all 0.3s ease;
+}
+
+.robot-hair-style > div:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.robot-hair-style > div:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.robot-hair-style > div:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.robot-hair-style > div:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.robot-hair-style > div:nth-child(5) {
+  animation-delay: 0.8s;
+}
