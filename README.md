@@ -27,7 +27,7 @@ This assignment should prove that a student is able to:
 Acceptance criteria:
 
 - [x] Animation with rotation is shown.
-- [ ] Animation with disappearing/appearing is shown.
+- [x] Animation with disappearing/appearing is shown.
 - [ ] Animation with changing dimensions is shown.
 - [ ] Animation with movement around some position is shown.
 - [ ] Animation on object hover event is shown.
