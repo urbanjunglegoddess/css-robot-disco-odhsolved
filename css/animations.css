@@ -108,3 +108,18 @@
   transform: scaleY(1.5);
   background-color: #00ff00 !important;
 }
+
+/*Ears*/
+.robot-ear-left, .robot-ear-right {
+  animation: rotate 4s linear infinite;
+  transform-origin: center;
+}
+
+.robot-ear-left {
+  animation-direction: normal;
+}
+
+.robot-ear-right {
+  animation-direction: reverse;
+}
+
