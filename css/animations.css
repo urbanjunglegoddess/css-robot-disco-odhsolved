@@ -102,8 +102,7 @@
 
 /* Nose */
 .robot-nose {
-  animation: wobble 2s ease-in-out infinite,
-  color-pulse 4s linear infinite;
+  animation: wobble 2s ease-in-out infinite;
 }
 
 /* Teeth */
