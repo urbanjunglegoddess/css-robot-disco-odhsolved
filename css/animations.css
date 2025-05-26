@@ -40,3 +40,13 @@
     transform: translateX(5px);
   }
 }
+
+/* Color change animation */
+@keyframes cone-color-pulse {
+  0%, 100% {
+    border-color: var(--peach-brown) transparent transparent transparent;
+  }
+  50% {
+    border-color: var(--pale-green) transparent transparent transparent;
+  }
+}
