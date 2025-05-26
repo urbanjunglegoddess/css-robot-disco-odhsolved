@@ -26,7 +26,7 @@ This assignment should prove that a student is able to:
 
 Acceptance criteria:
 
-- [ ] Animation with rotation is shown.
+- [x] Animation with rotation is shown.
 - [ ] Animation with disappearing/appearing is shown.
 - [ ] Animation with changing dimensions is shown.
 - [ ] Animation with movement around some position is shown.

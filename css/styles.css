@@ -28,7 +28,7 @@ body {
   flex-flow: column wrap;
   justify-content: space-around;
   align-items: center;
-  
+  z-index: 0;
 }
 
 .hexagon {
@@ -147,7 +147,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  width: 90%;
+  width: 70%;
   align-self: center;
   position: absolute;
 }
@@ -163,10 +163,39 @@ body {
 }
 
 .robot-ear-left {
-  left: 16%;
+  left: 10%;
   transform: rotate(-180deg);
 }
 
 .robot-ear-right {
-  right: 16%;
+  right: 10%;
 }
+
+/* Hair */
+.robot-hair-style {
+  outline: 1px solid red;
+  display: inherit;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 65px;
+  width: 45%;
+  height: 10%;
+  z-index: 1;
+}
+
+.cone {
+  width: 0;
+  height: 0;
+  border-left: 70px solid transparent;
+  border-right: 70px solid transparent;
+  border-top: 100px solid var(--pale-green);
+  border-radius: 50%;
+}
+
+.robot-hair-one,
+.robot-hair-two,
+.robot-hair-three {
+  height: inherit;
+}
+
