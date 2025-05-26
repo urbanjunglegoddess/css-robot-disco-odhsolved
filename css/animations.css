@@ -56,3 +56,26 @@
 .hexagon:hover {
   transform: scale(1.05);
 }
+
+/* Eyes */
+.robot-eye-left, .robot-eye-right {
+  transition: all 0.3s ease;
+}
+
+.outside-circle-left {
+  animation: rotate 8s linear infinite;
+}
+
+.outside-circle-right {
+  animation: rotate 8s linear infinite reverse;
+}
+
+.inside-circle-left, .inside-circle-right {
+  animation: breathe 2s ease-in-out infinite;
+}
+
+.robot-eye-left:hover, .robot-eye-right:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
